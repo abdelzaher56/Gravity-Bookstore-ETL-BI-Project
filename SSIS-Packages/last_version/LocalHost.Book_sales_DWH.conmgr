@@ -1,0 +1,12 @@
+﻿<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="LocalHost.Book_sales_DWH"
+  DTS:DTSID="{25F7E1CC-C4F1-46ED-AABC-CFA564B5E1C4}"
+  DTS:CreationName="OLEDB">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectRetryCount="1"
+      DTS:ConnectRetryInterval="5"
+      DTS:ConnectionString="Data Source=.;Initial Catalog=Book_sales_DWH;Provider=SQLNCLI11.1;Integrated Security=SSPI;Application Name=SSIS-last_version-{25F7E1CC-C4F1-46ED-AABC-CFA564B5E1C4}LocalHost.Book_sales_DWH;Auto Translate=False;" />
+  </DTS:ObjectData>
+</DTS:ConnectionManager>
